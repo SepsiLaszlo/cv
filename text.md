@@ -1,8 +1,5 @@
 # Ruby On Rails
 
-favourite, I tried out a lot other, a great choice, provides good productivity and developer experience, promotes end to end problemsolving
-continously improving, pushing what is possible, has a great community, good docs, my opensource contribution, good books
-
 Ruby on Rails is my framework of choice for building web applications. It enables imense productivity by giving developers a toolbox full of great tools like actionpack, activemodel, activerecord, that work together perfectly. Rails reduces boiler plate code to a minimum by utilizing the Ruby's elegant and human friendly syntax and metaprogramming capabilites.
 
 My approach to working with Ruby on Rails is about staying as close to stock Ruby on Rails as possible, this way I can levarage most sinergy between the framework's components. I 'm not a fan of gems like [graphql](https://graphql-ruby.org/), which change how code is organized in a project. I prefer the fat models, skinny controllers guideline to organize code over creating services classes, I belive having an [expressive domain model](https://dev.37signals.com/domain-driven-boldness/) is a great asset.
@@ -11,6 +8,10 @@ I prefer to develop code using Test Driven Development, as it is described in [9
 
 # PostgreSQL
 
-I whole heartedly aggree with the statement "The World's Most Advanced Open Source Relational Database" from PostgreSQL homepage.
+I whole heartedly aggree with the statement "The World's Most Advanced Open Source Relational Database",from PostgreSQL homepage. Relational databases are a great way to access data consistently in a concurrent environment. PostgreSQL's internals make it fantastic for usecases where data is more often read then it is written, which is a common carateristic for web applications. PostgresSQL's approah to concurrency control is uniquely elegant, by providind Serializable Snapshot Isolation level, it can provide correctness and good performance in high concurrency usecases. I also has a wide variety of features, supports several types of indexes and operations. With the use of extensions, like pgvector or postgis, it can also cover nicher usecases well, which eliviates the need to deploy, monitor and pay for multiple specialized databases. Recently I digging deeper on what postgres can do, my current favourite resource for Postgres, besides the offical docs is [High Performance PostgreSQL for Rails](https://pragprog.com/titles/aapsql/high-performance-postgresql-for-rails/).
 
-#
+# Hotwire
+
+Hotwire provides a huge productivity boost for rails developers. With Turbo, it enables backend developers to progressively enchance their applications with features of a Single Page Application, without writing a lick of JavaScript. Controlling client side interactions with server side rendered templates provides a staight forward way to implement modern features. In cases where simple DOM changes are not enough, we can connect a Stimulus controller to provide custom JavaScript functionality, organized in a Rails like like fashion. Hotwire Native provides a novel way to ship Rails and other web applications, to Android and iOs. Being able to deploy to the web and all major mobile platforms simulteniously can be a crucial adventages, when the app needs to reach a broad customer base.
+
+
