@@ -39,8 +39,8 @@
       <div>
         <ul>
           <!-- <li><a href="https://github.com/rails/rails"><span>Source</span></a></li>
-          <li><a href="/docs"><span>Docs</span></a></li>
-          <li><a href="/community"><span>Community</span></a></li> -->
+          <li><a href="/docs"><span>Docs</span></a></li> !-->
+          <li><a href="https://lsepsi.hu" target="_blank"><span>Blog</span></a></li>
           <li><a href="https://github.com/SepsiLaszlo" target="_blank"><span>GitHub</span></a></li>
         </ul>
         <ul>
@@ -76,7 +76,7 @@
     <div class="container">
       <div class="heading__body blog common-padding--bottom-small">
         <div class="heading__headline common-headline">
-          <h2>Skills</h2>
+          <h2>How I Build Software</h2>
         </div>
       </div>
       <ul class="blog__posts">
@@ -86,9 +86,91 @@
               Ruby on Rails
             </h3>
             <div class="common-content common-content--size-large">
-              <h4>
-                5 years of experience
-              </4>
+              <p>
+                Ruby on Rails is my framework of choice for building web applications. It enables immense productivity
+                by giving developers a toolbox full of well-integrated components like Action Pack, Active Model, and
+                Active Record. Rails minimizes boilerplate code by leveraging Ruby’s elegant, human-friendly syntax and
+                powerful metaprogramming capabilities.
+              </p>
+              <p>
+                My approach to Rails development is to stay as close to “stock” Rails as possible, so I can take full
+                advantage of the synergy between its components. I’m not a fan of gems like GraphQL Ruby
+                that significantly change a project’s structure. Instead, I follow the “fat models, skinny controllers”
+                guideline and prioritize building an expressive domain model
+                over introducing service classes. I believe that a well-crafted domain model is one of the greatest
+                assets in a Rails application.
+              </p>
+              <p>
+                I practice Test-Driven Development (TDD), as described in <a href="https://sandimetz.com/99bottles"
+                  target="_blank">99 Bottles of OOP</a>
+                . TDD helps me design clear interfaces, codify requirements, and focus on solving the problem at hand. I
+                strive for the simplest possible solution, avoiding unnecessary abstractions and speculative features in
+                order to keep the codebase readable, maintainable, and adaptable.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="blog__post">
+          <div class="post-container">
+            <h3>
+              PostgreSQL
+            </h3>
+            <div class="common-content">
+              <p>
+                I wholeheartedly agree with the statement from the PostgreSQL homepage: “The World’s Most Advanced Open
+                Source Relational Database.” Relational databases remain one of the best ways to ensure consistent
+                access
+                to data in concurrent environments. PostgreSQL’s internals make it especially well-suited for
+                applications
+                where data is read more often than it is written, which is a common pattern in web development.
+              </p>
+              <p>
+                PostgreSQL’s approach to concurrency control is uniquely elegant. By providing Serializable Snapshot
+                Isolation, it delivers both correctness and strong performance under high concurrency. Beyond its
+                rock-solid core, PostgreSQL offers a rich set of features, indexing strategies, and operations.
+                Extensions
+                like pgvector or PostGIS make it possible to handle specialized use cases without introducing additional
+                databases to deploy, monitor, and pay for.
+              </p>
+              <p>
+                Recently, I’ve been diving deeper into PostgreSQL’s capabilities. My current favorite resource (besides
+                the excellent official documentation) is <a
+                  href="https://pragprog.com/titles/aapsql/high-performance-postgresql-for-rails" target="_blank">High
+                  Performance
+                  PostgreSQL for Rails</a>
+                .
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="blog__post">
+          <div class="post-container">
+            <h3>
+              Hotwire
+            </h3>
+            <div class="common-content common-content--size-large">
+              <p>
+                Hotwire gives Rails developers a major productivity boost. With Turbo, it allows backend developers to
+                progressively enhance their applications with features typical of Single Page Applications—without
+                writing
+                a single line of JavaScript. By controlling client-side interactions through server-rendered templates,
+                Hotwire provides a straightforward way to implement modern, dynamic features.
+              </p>
+              <p>
+                When simple DOM updates aren’t enough, Stimulus can be used to add custom JavaScript functionality in a
+                clean, Rails-like structure. Hotwire Native extends this approach even further by enabling deployment of
+                Rails applications to Android and iOS. The ability to reach the web and all major mobile platforms
+                simultaneously is a huge advantage for teams that need to serve a broad customer base.
+              </p>
+
+              <p>
+                <a href="https://pragprog.com/titles/jmnative/hotwire-native-for-rails-developers" target="_blank">
+                  Hotwire Native for Rails Developers
+                </a> and
+                <a href="https://masterhotwire.com" target="_blank" rel="noopener noreferrer">
+                  Master Hotwire
+                </a> are excellent books that help build a solid mental model of the technologies.
+              </p>
             </div>
           </div>
         </li>
