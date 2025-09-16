@@ -18,3 +18,8 @@ Hotwire, current default front-end framework for Rails, builds on the simplicity
 # HTML, CSS, JavaScript
 
 These foundational techonlogies of the web stood the test of time, websites that were created in 90s are still working today! I value  these tehcnologies, they give simple building block, that can be combined to display very complex user interfaces. I consider myself mainly a back-end engineer but I worked many times as a full-stack developer. Solving problems end-to-end can be very fast and efficinent.  I understand the concepts of DOM, document flow,layouts, spacing and positioning. But I 'm not an expert in UI/UX design, if I need to have some stunning pages, I I usually search for a nice nice online and copy it.
+
+# Infrastucture
+
+I started learning about infrastructure on a projectt, that was deployed on premise, on virtual machine running Docker containers and NGINX. We were running the tests with GitHub actions. It was a simple setup, we deployed new versions manually. Later on I joined a company which was using Heroku.  It was a huge step up, in developer ergonomics, automaticcaly created sandboxes speed up the develpoment/testing cycle. I also worked at a large scale company who hosted their infrastructure on AWS. It was a good experience, I learned a lot about different AWS services like, OpenSearch, ECS, Lambda and DynamoBD. I built a lot of features on AWS, which required new infrastucture,  I gained valuable experience in creating infrastrure as a code solutions.
+
