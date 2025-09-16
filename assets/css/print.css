@@ -1,0 +1,11 @@
+.banner {
+  display: none;
+}
+
+.nav__toggle {
+  display: none;
+}
+
+.page-break {
+  page-break-before: always;
+}
