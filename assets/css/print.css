@@ -9,3 +9,7 @@
 .page-break {
   page-break-before: always;
 }
+
+body {
+  text-align: justify;
+}
