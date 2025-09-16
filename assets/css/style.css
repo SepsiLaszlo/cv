@@ -14,7 +14,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 }
 
 body {
-    line-height: 1
+    line-height: 1;
+    text-align: justify
 }
 
 ol,ul,menu {
